@@ -6,8 +6,8 @@ int main() {
 
 	STARTUPINFO si;
 	PROCESS_INFORMATION pi;
-	char pathCreator[] = "D:\\OneDrive\\2grade\\4 sem\\ОСИ\\Практика\\Lab1\\Debug\\Creator.exe";
-	char pathReporter[] = "D:\\OneDrive\\2grade\\4 sem\\ОСИ\\Практика\\Lab1\\Debug\\Reporter.exe";
+	char pathCreator[] = "..\\Debug\\Creator.exe";
+	char pathReporter[] = "..\\Debug\\Reporter.exe";
 	char cmdArgs[100];
 
 	char binFileName[81];
